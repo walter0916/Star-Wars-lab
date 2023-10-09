@@ -4,6 +4,7 @@ import { getStarshipDetails } from "../services/api-calls"
 import { Link } from "react-router-dom"
 import './Starship.css'
 
+
 const StarshipDetails = (props) => {
   const [starshipDetails, setStarshipDetails] = useState({})
   const starshipId = useParams().id

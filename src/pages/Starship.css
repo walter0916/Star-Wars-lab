@@ -1,6 +1,8 @@
+
+
 .starship-link {
   display: flex;
-  border: 2px solid blue;
+  border: 2px solid white;
   border-radius: 20px;
   background-color: gold;
   color: black;
@@ -37,6 +39,8 @@ body {
   background-color: transparent;
   color: black;
   font-size: large;
+  font-family: 'Days one';
+  text-transform: uppercase;
 }
 
 .Starship-details {
@@ -45,6 +49,8 @@ body {
   border:5px solid white;
   padding: 20px;
   background-color: gold;
+  border-radius: 20px;
+  font-family: 'Days one';
 }
 
 .title {
