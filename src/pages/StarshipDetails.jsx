@@ -19,8 +19,9 @@ const StarshipDetails = (props) => {
 console.log(starshipDetails)
   if (!starshipDetails.length) return <h1>Loading...</h1>
   return (
+    <>
+      <h1 className="title">{starshipDetails.name}</h1>
     <main className="Starship-details">
-      <h2>Name: {starshipDetails.name}</h2>
       <h2>Model: {starshipDetails.model}</h2>
       <h2>Manufacturer: {starshipDetails.manufacturer}</h2>
       <h2>Length: {starshipDetails.length}</h2>
@@ -32,6 +33,7 @@ console.log(starshipDetails)
       <h2>Starship Class: {starshipDetails.starship_class}</h2>
       <Link to={'/'}>Return</Link>
     </main>
+    </>
   )
 }
 export default StarshipDetails
