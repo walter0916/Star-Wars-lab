@@ -1,0 +1,46 @@
+.starship-link {
+  display: flex;
+  border: 2px solid blue;
+  background-color: gold;
+  color: black;
+  margin: 20px;
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.starship-link:hover {
+  background-color: goldenrod;
+  color: white;
+}
+
+.starship-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+  font-size: large;
+}
+
+.Starship-details {
+  color: black;
+  text-align: left;
+  border:5px solid white;
+  padding: 20px;
+  background-color: gold;
+}
