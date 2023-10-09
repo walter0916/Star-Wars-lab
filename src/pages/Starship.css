@@ -1,6 +1,7 @@
 .starship-link {
   display: flex;
   border: 2px solid blue;
+  border-radius: 20px;
   background-color: gold;
   color: black;
   margin: 20px;
@@ -26,7 +27,8 @@
 }
 
 body {
-  background-color: black;
+  background-image: url("https://i.imgur.com/m9bpVKU.jpg");
+  background-size: contain;
   color: white;
 }
 
@@ -43,4 +45,10 @@ body {
   border:5px solid white;
   padding: 20px;
   background-color: gold;
+}
+
+.title {
+  -webkit-text-stroke: 3px gold;
+  -webkit-text-fill-color: transparent;
+  font-size: 120px;
 }
