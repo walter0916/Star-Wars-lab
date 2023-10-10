@@ -14,7 +14,7 @@ if (!props.starshipList.length) return <h1>Loading...</h1>
       <h1 className="title">Starships</h1>
       <div className="starship-container">
         {props.starshipList.map(starship => <div className="starship-link" key={starship._id}>
-        <Link to={`/starships/${starship.url}`} className="link">{starship.name}</Link>
+        <Link to={`/starships/${starship.url.match(/\d+/)}`} className="link">{starship.name}</Link>
         {console.log(starship.id)}
       </div> )}
       </div>

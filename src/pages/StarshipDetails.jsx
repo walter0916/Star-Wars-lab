@@ -7,7 +7,7 @@ import './Starship.css'
 
 const StarshipDetails = (props) => {
   const [starshipDetails, setStarshipDetails] = useState({})
-  const starshipId = useParams().id
+  const {starshipId} = useParams()
 
   useEffect(() => {
     const fetchStarshipDetails = async () => {

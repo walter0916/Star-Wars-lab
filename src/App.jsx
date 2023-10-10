@@ -20,7 +20,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<StarshipList starshipList={starshipList}/>} />
-        <Route path="/starships/https://swapi.dev/api/starships/:id/" element={<StarshipDetails/>} />
+        <Route path="/starships/:starshipId" element={<StarshipDetails/>} />
       </Routes>
     </>
   )
