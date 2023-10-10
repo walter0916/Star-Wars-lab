@@ -1,7 +1,7 @@
 
 
-export async function getAllStarships() {
-  const res = await fetch('https://swapi.dev/api/starships/')
+export async function getAllStarships(page) {
+  const res = await fetch(`https://swapi.dev/api/starships?page=${page}`)
   return res.json()
 }
 

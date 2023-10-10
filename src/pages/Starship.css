@@ -7,8 +7,8 @@
   background-color: gold;
   color: black;
   margin: 20px;
-  height: 100px;
-  width: 300px;
+  height: 300px;
+  width: 410px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -26,6 +26,8 @@
   justify-content: center;
   text-align: center;
   text-decoration: none;
+  width: 2000px;
+  margin-left: -370px;
 }
 
 body {
@@ -38,7 +40,7 @@ body {
   text-decoration: none;
   background-color: transparent;
   color: black;
-  font-size: large;
+  font-size: 40px;
   font-family: 'Days one';
   text-transform: uppercase;
 }
@@ -57,4 +59,16 @@ body {
   -webkit-text-stroke: 5px gold;
   -webkit-text-fill-color: transparent;
   font-size: 120px;
+}
+
+.paginationContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  margin-bottom: -100px;
+  margin-top: -150px;
 }
